@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problem 3 - Free Account</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<section class="content">
+    <header>
+        <ul>
+            <li><img src="Resources/Images/paraglider-icon.png"><div>Paragliding</div></li>
+            <li><img src="Resources/Images/sky-diver.png"><div>Skydiving</div></li>
+            <li><img src="Resources/Images/climbing.png"><div>Climbing</div></li>
+            <li><img src="Resources/Images/about-us.png"><div>About us</div></li>
+        </ul>
+    </header>
+    <form>
+    <article class="side" id="left">
+        <form>
+            <fieldset>
+                <legend>Personal info</legend>
+                <input type="text" class="leftInput" placeholder="Enter your full name" name="name" id="name">
+                <input type="email" class="leftInput" placeholder="Enter a valid e-mail" name="email" id="email">
+                <input type="text" class="leftInput" placeholder="Enter a phone number" name="phone" id="phone">
+            </fieldset>
+        </form>
+    </article>
+    <article class="side" id="right">
+        <form>
+            <fieldset>
+                <legend>Flight info</legend>
+                <p>Are flying for first time?</p>
+                <article class="radio">
+                    <input type="radio" class="radioB" name="radioButton" value="yes" id="yes" >
+                    <label for="yes">Yes</label>
+                    <input type="radio" class="radioB" name="radioButton" value="no" id="no">
+                    <label for="no" id="labelNo">No</label>
+                </article>
+                <article class="destination">
+                <p>Choose Destination</p>
+                <select>
+                    <option class="disabledOpt" disabled>Bulgaria</option>
+                    <option id="destinationId" selected>Dobrostan</option>
+                    <option>Sopot</option>
+                    <option>Sofia</option>
+                    <option>Burgas</option>
+                    <option class="disabledOpt" disabled>Rest of the world</option>
+                    <option>Nepal</option>
+                    <option>Turkey</option>
+                    <option>France</option>
+
+                </select>
+                <p>Choose Date</p>
+                <select><option>mm/dd/yy</option></select>
+                </article>
+            </fieldset>
+        </form>
+    </article>
+    <footer class="button">
+        <input type="submit" class="buttonSub" value="Clear" id="cl">
+        <input type="submit" class="buttonSub" value="Send" id="send">
+    </footer>
+    </form>
+</section>
+</body>
+</html>

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    color: #808080;
+}
+main{
+    width: 95%;
+    height: 550px;
+    margin: 10px auto 0 auto;
+    border: 1px solid #D9D9D9;
+}
+
+.left{
+    float: left;
+    width: 60%;
+    height: 100%;
+    padding-left: 30px;
+}
+
+p{
+    font-size: 10px;
+    width: 80%;
+}
+
+.left-input{
+    width: 100%;
+    display: block;
+
+}
+input[type='text']{
+    width: 90%;
+    height: 30px;
+
+}
+
+textarea{
+    width: 77%;
+    height: 100px;
+    padding-right: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#FirstName,#Email{
+    margin-right: 50px;
+}
+.single-input{
+    width: 40%;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.left-btn{
+    border: none;
+    background-color: #E97720;
+    text-transform: uppercase;
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+
+.right{
+    float: right;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+.info{
+
+    list-style: none;
+    width: 60%;
+    margin-right: 50px;
+
+
+}
+h3{
+    border-bottom: 1px solid #D9D9D9;
+    padding-bottom: 15px;
+}
+
+.info-current{
+    display: inline-block;
+}
+.info-text{
+    width: 70%;
+    margin-left: 30px;
+    position: relative;
+    top: -28px;
+
+
+}
+
+h1,h3{
+    color: #1F2746;
+    font-weight: bolder;
+}
+
+.fa{
+    color: #00B2A9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

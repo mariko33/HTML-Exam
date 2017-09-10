@@ -1,0 +1,50 @@
+@media all and (max-width: 480px) {
+
+    .top-button{
+        display: none;
+    }
+
+    .header-subtitle{
+        display: none;
+    }
+
+    header{
+        text-align: center;
+    }
+
+    .introduction-section{
+        text-align: center;
+    }
+
+    .wrapper{
+       display: inline-block;
+    }
+    .service-container{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .travel-title-container{
+        text-align: center;
+        width: 100%;
+    }
+    .footer-wrapper{
+        flex-wrap: wrap;
+        text-align: center;
+
+    }
+
+    .logo-image-container{
+        width: 100%;
+        position: relative;
+        top: -15px;
+    }
+    .footer-list{
+        width: 100%;
+        position: relative;
+        top: -15px;
+    }
+}
+
+
+
